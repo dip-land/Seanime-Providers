@@ -34,7 +34,7 @@
       {
         "name": "custom_solver",
         "label": "Custom Solver URL",
-        "type": "switch",
+        "type": "text",
         "default": "http://127.0.0.1:8191"
       }
     ]
