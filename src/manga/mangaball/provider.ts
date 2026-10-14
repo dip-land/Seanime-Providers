@@ -153,7 +153,7 @@ class Provider {
 
   async refreshCF() {
     if ($getUserPreference("solver") === "mpdp") {
-      const response = await fetch("https://mangaproxy.dipped.dev/mangadot/");
+      const response = await fetch("https://mangaproxy.dipped.dev/mangaball");
       const data = response.json<any>();
 
       if (data.status !== "ok") {
