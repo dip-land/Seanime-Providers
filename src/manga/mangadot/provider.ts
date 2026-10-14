@@ -145,7 +145,8 @@ class Provider {
       this.writeCache("mangadot_cookie", JSON.stringify(data.cookies));
     } else {
       const solvedResponse = await fetch(
-        $getUserPreference("custom_solver") + "/v1",
+        ($getUserPreference("custom_solver") || "http://127.0.0.1:8191") +
+          "/v1",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
