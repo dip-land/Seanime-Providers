@@ -80,7 +80,9 @@ class Provider {
     return data.map((v) => ({
       id: `${v.id}`,
       url: `https://mangadot.net/manga/${mangaId}`,
-      title: v.chapter_title,
+      title: v.chapter_title.includes("1r0n")
+        ? `Chapter ${v.chapter_number}`
+        : v.chapter_title,
       index: v.chapter_number * 10,
       chapter: `${v.chapter_number}`,
       language: v.language,
