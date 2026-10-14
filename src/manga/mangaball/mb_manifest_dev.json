@@ -2,7 +2,7 @@
   "id": "dipland-mangaball",
   "name": "MangaBall",
   "version": "1.1.0",
-  "manifestURI": "https://raw.githubusercontent.com/dip-land/seanime-providers/solver_update/src/manga/mangaball/manifest_dev.json",
+  "manifestURI": "https://raw.githubusercontent.com/dip-land/seanime-providers/solver_update/src/manga/mangaball/mb_manifest_dev.json",
   "language": "typescript",
   "type": "manga-provider",
   "description": "Multi language manga provider.",
