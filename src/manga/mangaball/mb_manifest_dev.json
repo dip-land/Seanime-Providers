@@ -1,16 +1,16 @@
 {
-  "id": "dipland-mangadot",
-  "name": "MangaDot",
+  "id": "dipland-mangaball",
+  "name": "MangaBall",
   "version": "1.1.0",
-  "manifestURI": "https://raw.githubusercontent.com/dip-land/seanime-providers/solver_update/src/manga/mangadot/manifest_dev.json",
+  "manifestURI": "https://raw.githubusercontent.com/dip-land/seanime-providers/solver_update/src/manga/mangaball/manifest_dev.json",
   "language": "typescript",
   "type": "manga-provider",
   "description": "Multi language manga provider.",
   "author": "dip-land",
-  "icon": "https://raw.githubusercontent.com/dip-land/seanime-providers/refs/heads/solver_update/public/mangadot.png",
-  "website": "https://mangadot.net/",
+  "icon": "https://raw.githubusercontent.com/dip-land/seanime-providers/refs/heads/solver_update/public/mangaball.png",
+  "website": "https://mangaball.net/",
   "lang": "multi",
-  "payloadURI": "https://raw.githubusercontent.com/dip-land/seanime-providers/solver_update/src/manga/mangadot/provider.ts",
+  "payloadURI": "https://raw.githubusercontent.com/dip-land/seanime-providers/solver_update/src/manga/mangaball/provider.ts",
   "userConfig": {
     "requiresConfig": false,
     "version": 1,
@@ -19,7 +19,7 @@
         "name": "solver",
         "label": "Solver",
         "type": "select",
-        "default": "dipped.dev",
+        "default": "mpdp",
         "options": [
           {
             "label": "mangaproxy.dipped.dev",

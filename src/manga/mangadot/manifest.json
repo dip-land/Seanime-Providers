@@ -19,7 +19,7 @@
         "name": "solver",
         "label": "Solver",
         "type": "select",
-        "default": "dipped.dev",
+        "default": "mpdp",
         "options": [
           {
             "label": "mangaproxy.dipped.dev",
